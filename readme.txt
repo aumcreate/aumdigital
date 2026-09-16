@@ -38,6 +38,10 @@ File delivery, download limits and expiry, the customer's *Downloads* page, the 
 
 None. The plugin makes no request to any external service, sends no data anywhere, and has no account with us. Everything runs inside your WordPress.
 
+= Source code =
+
+The released source is on GitHub at https://github.com/aumcreate/aumdigital — bug reports and pull requests are welcome there.
+
 == Installation ==
 
 1. Install and activate WooCommerce.
