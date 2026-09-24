@@ -100,4 +100,26 @@ class AumDigital_Settings extends WC_Settings_Page {
 			),
 		);
 	}
+
+	/**
+	 * One line at the foot of the tab pointing at the rest of the ecosystem.
+	 *
+	 * WooCommerce renders its settings pages itself, so there is no template to
+	 * append to; this hooks the action it fires after the fields of this tab.
+	 *
+	 * @return void
+	 */
+	public function output() {
+		parent::output();
+
+		$url = 'https://aumcreate.com/?utm_source=plugin&utm_medium=aumdigital&utm_campaign=settings';
+
+		echo '<p class="aum-ecosystem-note" style="margin:24px 0 0;color:#646970;font-size:12px">';
+		printf(
+			/* translators: %s: link to aumcreate.com */
+			esc_html__( 'Part of the AumCreate ecosystem — themes and templates built around it. %s', 'aumdigital' ),
+			'<a href="' . esc_url( $url ) . '" target="_blank" rel="noopener">aumcreate.com</a>'
+		);
+		echo '</p>';
+	}
 }
