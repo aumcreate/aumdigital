@@ -4,7 +4,7 @@ Tags: digital goods, virtual products, checkout fields, autocomplete orders, dig
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,9 @@ No. Only orders that actually receive a payment are completed. Orders waiting fo
 On the order, as order meta, together with a timestamp. It shows on the admin order screen and in the order confirmation. Uninstalling the plugin leaves that record in place: it is the store's own evidence of what the customer agreed to.
 
 == Changelog ==
+
+= 1.0.2 =
+* The link at the foot of the settings screen now goes to the plugin's own page on aumcreate.com instead of the site's front page.
 
 = 1.0.1 =
 * A line at the foot of the settings tab linking to the rest of the AumCreate ecosystem.

@@ -112,7 +112,7 @@ class AumDigital_Settings extends WC_Settings_Page {
 	public function output() {
 		parent::output();
 
-		$url = 'https://aumcreate.com/?utm_source=plugin&utm_medium=aumdigital&utm_campaign=settings';
+		$url = 'https://aumcreate.com/plugins/aumdigital/?utm_source=plugin&utm_medium=aumdigital&utm_campaign=settings';
 
 		echo '<p class="aum-ecosystem-note" style="margin:24px 0 0;color:#646970;font-size:12px">';
 		printf(

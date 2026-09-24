@@ -3,7 +3,7 @@
  * Plugin Name:       AumDigital – Digital Goods Checkout for WooCommerce
  * Plugin URI:       https://aumcreate.com/plugins/aumdigital
  * Description:       Checkout built for digital goods. No address when the cart is all virtual, paid virtual orders complete themselves, and the EU withdrawal-right consent a digital store needs. Works with both the block checkout and the shortcode checkout.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Requires Plugins:  woocommerce
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AUMDIGITAL_VERSION', '1.0.1' );
+define( 'AUMDIGITAL_VERSION', '1.0.2' );
 define( 'AUMDIGITAL_FILE', __FILE__ );
 define( 'AUMDIGITAL_DIR', plugin_dir_path( __FILE__ ) );
 
