@@ -4,7 +4,7 @@ Tags: digital goods, virtual products, checkout fields, autocomplete orders, dig
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,13 @@ None. The plugin makes no request to any external service, sends no data anywher
 
 = Source code =
 
-The released source is on GitHub at https://github.com/aumcreate/aumdigital — bug reports and pull requests are welcome there.
+The released source is on GitHub at [github.com/aumcreate/aumdigital](https://github.com/aumcreate/aumdigital) — bug reports and pull requests are welcome there.
+
+= More from AumCreate =
+
+What changes at checkout for all-virtual carts, and how EU withdrawal consent is recorded: [aumcreate.com/plugins/aumdigital](https://aumcreate.com/plugins/aumdigital)
+
+Also free from AumCreate: llms.txt and schema for AI search, AI crawler control, AI translation for WordPress, and a hosted chat widget: [aumcreate.com/plugins](https://aumcreate.com/plugins)
 
 == Installation ==
 
@@ -72,6 +78,12 @@ No. Only orders that actually receive a payment are completed. Orders waiting fo
 On the order, as order meta, together with a timestamp. It shows on the admin order screen and in the order confirmation. Uninstalling the plugin leaves that record in place: it is the store's own evidence of what the customer agreed to.
 
 == Changelog ==
+
+= 1.0.4 =
+* The links in the description are now real links. They were plain text, because wordpress.org does not turn a bare address into a link.
+
+= 1.0.3 =
+* Added a short section pointing to the plugin's own page on aumcreate.com and to the other free AumCreate plugins. No code changes.
 
 = 1.0.2 =
 * The link at the foot of the settings screen now goes to the plugin's own page on aumcreate.com instead of the site's front page.
